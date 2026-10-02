@@ -5,6 +5,6 @@ año1 = inversion * (1 + 0.04) ** 1
 año2 = inversion * (1 + 0.04) ** 2
 año3 = inversion * (1 + 0.04) ** 3
 
-print ('Ahorros tras el primer año: ', round(año1, 2))
+print('Ahorros tras el primer año: ', round(año1, 2))
 print('Ahorros tras el segundo año: ', round(año2, 2))
 print('Ahorros tras el tercer año: ', round(año3, 2))
