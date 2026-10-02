@@ -5,6 +5,6 @@ descuento = 0.6
 con_descuento = precio_normal * (1 - descuento)
 total  = barras_viejas * con_descuento
 
-print ('Precio habitual de una barra: ', precio_normal, '€')
+print('Precio habitual de una barra: ', precio_normal, '€')
 print('Descuento aplicado por no ser fresca: 60%')
 print('Coste final total: ', round(total, 2), '€')
