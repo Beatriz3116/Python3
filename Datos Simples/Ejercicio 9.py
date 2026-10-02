@@ -4,4 +4,4 @@ años = int(input('¿Cuantos años dura la inversión?: '))
 
 capital = cantidad * (1 + interes / 100) ** años
 
-print (f"El capital obtenido es: ", round(capital, 2))
+print(f"El capital obtenido es: ", round(capital, 2))
