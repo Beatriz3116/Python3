@@ -1,4 +1,4 @@
-num1 = float(input("Ingrese el un número: "))
+num1 = float(input("Ingrese un número: "))
 num2 = float(input("Ingrese otro número: "))
 
 if num2 == 0:
