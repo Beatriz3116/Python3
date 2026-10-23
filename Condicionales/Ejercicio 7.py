@@ -1,13 +1,11 @@
 renta = float(input("Ingrese su renta anual: "))
-if renta < 10000:
-    impuesto = renta * 0.05
-elif renta < 20000:
-    impuesto = renta * 0.15
-elif renta < 35000:
-    impuesto = renta * 0.20
-elif renta < 60000:
-    impuesto = renta * 0.30
-else:
-    impuesto = renta * 0.45
-
-print(f"El impuesto a pagar es: {impuesto}")
+if renta <= 10000:
+    print('5%')
+elif renta <= 20000:
+    print('15%')
+elif renta <= 35000:
+    print('20%')
+elif renta <= 60000:
+    print('30%')
+elif renta > 60000:
+    print('45%')
