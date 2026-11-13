@@ -1,5 +1,4 @@
 contrasena_correcta = "contraseña"
-
 intentos = ""
 
 while intentos != contrasena_correcta:
